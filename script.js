@@ -1,27 +1,37 @@
-/*
-This is your site JavaScript code - you can add interactivity and carry out processing
-- Initially the JS writes a message to the console, and moves a button you can add from the README
-*/
+let hydra, hydraCanvas;
+hydraCanvas = document.getElementById("myCanvas");
+hydraCanvas.width = window.innerWidth
+hydraCanvas.height = window.innerHeight
+hydraCanvas.getContext("webgl", { preserveDrawingBuffer: true });
+hydra = new Hydra({
+  canvas: hydraCanvas,
+  detectAudio: false,
+  enableStreamCapture: false,
+});
 
-// Print a message in the browser's dev tools console each time the page loads
-// Use your menus or right-click / control-click and choose "Inspect" > "Console"
-console.log("Hello 🌎");
+s0.initImage("https://i.ibb.co/SRpW3L2/photo-2022-01-27-15-59-15.jpg")
 
-/* 
-Make the "Click me!" button move when the visitor clicks it:
-- First add the button to the page by following the "Next steps" in the README
-*/
-const btn = document.querySelector("button"); // Get the button from the page
-// Detect clicks on the button
-if (btn) {
-  btn.onclick = function() {
-    // The JS works in conjunction with the 'dipped' code in style.css
-    btn.classList.toggle("dipped");
-  };
-}
+src(o0)
+.hue(0.01)
+.modulate(voronoi(10,1,0.5).luma(0.1),0.001)
+.scrollY(-0.001)
+.saturate(1.01)
+.layer(
+src(s0).scale(1,0.6).contrast(1.5).luma(0.2,0)).out()
 
-// This is a single line JS comment
-/*
-This is a comment that can span multiple lines 
-- use comments to make your own notes!
-*/
+
+var newtext = document.createElement('div');
+newtext.classList.add('showtext');
+document.getElementById('editor-container').append(newtext);
+document.querySelector('.showtext').style.position="absolute";
+document.querySelector('.showtext').style.zIndex="1";
+document.querySelector('.showtext').style.fontSize="8vmax";
+document.querySelector('.showtext').style.fontFamily="Monospace";
+document.querySelector('.showtext').style.color="#fbf0f9";
+document.querySelector('.showtext').style.fontWeight="bold";
+document.querySelector('.showtext').style.textShadow= "4px 4px 5px #000";
+document.querySelector('.showtext').style.textAlign="right";
+document.querySelector('.showtext').style.lineHeight="8vmax";
+document.querySelector('.showtext').style.opacity="0.95";
+document.querySelector('.showtext').style.padding="1vw 3vw";
+document.querySelector('.showtext').innerHTML = "LIVECODERA \<br>\ a global live coding community gathering on International Women’s day!  \<br>\ <sub> 08.03.2022 </sub>";
