@@ -1,5 +1,5 @@
 html,body{
-  
+font-family: Monospace;  
 }
 
 *{
@@ -25,5 +25,18 @@ align-items: center;
 position: absolute;  
 }
 
-.form-sign{
+.form{
+background: #000000;
+}
+
+.form a{
+  outline: none;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  padding: 5px;
+}
+
+.form:hover {
+  background: #a300cc;
 }
