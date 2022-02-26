@@ -20,14 +20,18 @@ src(o0)
 src(s0).scale(1,0.6).contrast(1.5).luma(0.2,0)).out()
 
 
+render(o0)
+
+
 var newtext = document.createElement('div');
 newtext.classList.add('showtext');
 document.getElementById('editor-container').append(newtext);
 //document.querySelector('.showtext').style.position="absolute";
 document.querySelector('.showtext').style.zIndex="1";
-document.querySelector('.showtext').style.fontSize="8vmax";
+document.querySelector('.showtext').style.fontSize="4vmax";
 document.querySelector('.showtext').style.fontFamily="Monospace";
 document.querySelector('.showtext').style.color="#fbf0f9";
+document.querySelector('.showtext').style.backgroundColor="rgba(0,0,0,0.7)";
 document.querySelector('.showtext').style.fontWeight="bold";
 document.querySelector('.showtext').style.textShadow= "4px 4px 5px #000";
 document.querySelector('.showtext').style.textAlign="right";
