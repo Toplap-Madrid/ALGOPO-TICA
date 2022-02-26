@@ -37,5 +37,5 @@ document.querySelector('.showtext').style.textShadow= "4px 4px 5px #000";
 document.querySelector('.showtext').style.textAlign="right";
 document.querySelector('.showtext').style.lineHeight="6vmax";
 document.querySelector('.showtext').style.opacity="0.95";
-document.querySelector('.showtext').style.padding="1vw 3vw";
+document.querySelector('.showtext').style.padding="1vw 1vw";
 document.querySelector('.showtext').innerHTML = "LIVECODERA \<br>\ a global live coding community gathering on International Women’s day!  \<br>\ <sub> 08.03.2022 </sub>";
