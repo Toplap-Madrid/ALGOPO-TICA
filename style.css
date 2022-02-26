@@ -46,9 +46,12 @@ background-color: rgba(0, 0, 0, 0.9);
 background-color: rgba(0, 0, 0, 0.9); 
 }
 
+.editor-container h3{
+background-color: rgba(0, 0, 0, 0.9); 
+}
+
 .form{
 background: #000000;
-margin: 8vw 0 0 0;  
 }
 
 .form a{
