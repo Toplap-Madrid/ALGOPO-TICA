@@ -17,7 +17,6 @@ src(o0)
 .scrollY(-0.001)
 .saturate(1.01)
 .rotate(()=>mouse.y*0.0001)
-.rotate(()=>mouse.x*-0.001)
 .layer(
 src(s0).scale(1,0.6).contrast(1.5).luma(0.2,0)).out()
 

@@ -38,6 +38,10 @@ position: absolute;
     padding: 1vw; 
 }
 
+.editor-container:hover{
+color:#a300cc;  
+}
+
 .editor-container h1{
 background-color: rgba(0, 0, 0, 0.9); 
 }
@@ -60,6 +64,7 @@ background: #000000;
   text-align: center;
   color: white;
   padding: 5px;
+  font-size: 40px;
 }
 
 .form:hover {
