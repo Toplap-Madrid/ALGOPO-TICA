@@ -25,8 +25,30 @@ align-items: center;
 position: absolute;  
 }
 
+.editor-container{
+    z-index: 1;
+    font-size: 6vmax;
+    font-family: monospace;
+    color: rgb(251, 240, 249);
+    font-weight: bold;
+    text-shadow: rgb(0 0 0) 4px 4px 5px;
+    text-align: right;
+    line-height: 6vmax;
+    opacity: 0.95;
+    padding: 1vw; 
+}
+
+.editor-container h1{
+background-color: rgba(0, 0, 0, 0.9); 
+}
+
+.editor-container h2{
+background-color: rgba(0, 0, 0, 0.9); 
+}
+
 .form{
 background: #000000;
+margin: 8vw 0 0 0;  
 }
 
 .form a{

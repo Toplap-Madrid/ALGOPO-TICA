@@ -16,13 +16,14 @@ src(o0)
 .modulate(voronoi(10,1,0.5).luma(0.1),0.001)
 .scrollY(-0.001)
 .saturate(1.01)
+.rotate(()=>mouse.x*0.0001)
 .layer(
 src(s0).scale(1,0.6).contrast(1.5).luma(0.2,0)).out()
 
 
 render(o0)
 
-
+/*
 var newtext = document.createElement('div');
 newtext.classList.add('showtext');
 document.getElementById('editor-container').append(newtext);
@@ -38,4 +39,4 @@ document.querySelector('.showtext').style.textAlign="right";
 document.querySelector('.showtext').style.lineHeight="6vmax";
 document.querySelector('.showtext').style.opacity="0.95";
 document.querySelector('.showtext').style.padding="1vw 1vw";
-document.querySelector('.showtext').innerHTML = "LIVECODERA \<br>\ a global live coding community gathering on International Women’s day!  \<br>\ <sub> 08.03.2022 </sub>";
+document.querySelector('.showtext').innerHTML = "LIVECODERA \<br>\ a global live coding community gathering on International Women’s day!  \<br>\ <sub> 08.03.2022 </sub>";*/
