@@ -21,7 +21,9 @@ src(o0)
 src(s0).scale(1,0.6).contrast(1.5).luma(0.2,0)).out()
 
 
-render(o0)
+src(o0).blend(solid().diff(noise(300).thresh()),0.1).out(o1)
+
+render(o1)
 
 /*
 var newtext = document.createElement('div');
