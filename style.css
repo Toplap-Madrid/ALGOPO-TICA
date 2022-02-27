@@ -22,7 +22,7 @@ font-family: Monospace;
 display: flex;
 flex-direction: column;
 align-items: center;  
-position: absolute;  
+position: absolute;
 }
 
 .editor-container{
@@ -43,7 +43,7 @@ color:#a300cc;
 }
 
 .editor-container h1{
-background-color: rgba(0, 0, 0, 0.9); 
+background-color: rgba(0, 0, 0, 0.9);  
 }
 
 .editor-container h2{
@@ -56,6 +56,7 @@ background-color: rgba(0, 0, 0, 0.9);
 
 .form{
 background: #000000;
+margin: 0 0 0 30px;  
 }
 
 .form a{
