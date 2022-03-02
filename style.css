@@ -75,3 +75,24 @@ background-color: rgba(0, 0, 0, 0.9);
 .form:hover {
   background: #a300cc;
 }
+
+.mozilla{
+  background: #000000;
+  margin: 0 0 0 30px; 
+  width: max-content;
+}
+
+.mozilla:hover {
+  background: #a300cc;
+}
+
+.mozilla a{
+  outline: none;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  padding: 5px;
+  font-size: 40px;
+  opacity: 0.85;
+  width: min-content;
+}
