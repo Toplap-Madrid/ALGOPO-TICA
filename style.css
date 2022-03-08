@@ -96,3 +96,24 @@ background-color: rgba(0, 0, 0, 0.9);
   opacity: 0.85;
   width: min-content;
 }
+
+.live{
+  background: #000000;
+  margin: 10px 0 0 30px; 
+  width: max-content; 
+}
+
+.live:hover {
+  background: #a300cc;
+}
+
+.live a{
+  outline: none;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  padding: 5px;
+  font-size: 40px;
+  opacity: 0.85;
+  width: min-content;
+}
