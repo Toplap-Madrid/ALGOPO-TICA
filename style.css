@@ -117,3 +117,30 @@ background-color: rgba(0, 0, 0, 0.9);
   opacity: 0.85;
   width: min-content;
 }
+
+.manifestoTitle {
+  background-color: rgba(0, 0, 0, 0); 
+  text-decoration: none;
+  text-align: left;
+  color: white;
+  font-size: 5em;
+  opacity: 0.85;
+}
+
+.manifestoSubTitle {
+  background-color: rgba(0, 0, 0, 0.9); 
+  text-decoration: none;
+  text-align: left;
+  color: white;
+  font-size: 4em;
+  opacity: 0.85;
+}
+
+.manifesto {
+  background-color: rgba(0, 0, 0, 0.9); 
+  text-decoration: none;
+  text-align: left;
+  color: white;
+  font-size: 2em;
+  opacity: 0.85;
+}
