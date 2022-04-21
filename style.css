@@ -58,20 +58,19 @@ background-color: rgba(0, 0, 0, 0.9);
 
 .form{
   background: #000000;
-  margin: 0 0 0 30px; 
+  margin: 0 0 0 70%; 
   width: max-content;
 }
 
 .form a{
   outline: none;
   text-decoration: none;
-  text-align: center;
+  text-align: right;
   color: white;
   padding: 5px;
   font-size: 40px;
   opacity: 0.85;
   width: min-content;
-  align-items: right; 
 }
 
 .form:hover {
@@ -121,29 +120,32 @@ background-color: rgba(0, 0, 0, 0.9);
 }
 
 .manifestoTitle {
-  background-color: rgba(0, 0, 0, 0.8); 
-  text-align: left;
-  color: white;
-  font-size: 5em;
-  width: max-content;
-  margin: 0 0 0 30px;
-}
-
-.manifestoSubTitle {
-  background-color: rgba(0, 0, 0, 0.7); 
-  text-decoration: none;
+  background-color: black; 
   text-align: left;
   color: white;
   font-size: 4em;
   width: max-content;
   margin: 0 0 0 30px;
+  opacity: 0.85;
+}
+
+.manifestoSubTitle {
+  background-color: black; 
+  text-decoration: none;
+  text-align: left;
+  color: white;
+  font-size: 3em;
+  width: max-content;
+  margin: 0 0 0 30px;
+  opacity: 0.75;
 }
 
 .manifesto {
-  background-color: rgba(0, 0, 0, 0.6); 
+  background-color: black; 
   text-decoration: none;
   text-align: left;
   color: white;
   font-size: 2em;
-  margin: 0 30px 0 30px;
+  margin: 0 5% 0 5%;
+  opacity: 0.65;
 }
