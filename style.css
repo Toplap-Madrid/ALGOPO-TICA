@@ -73,6 +73,17 @@ background-color: rgba(0, 0, 0, 0.9);
   width: min-content;
 }
 
+.small a{
+  outline: none;
+  text-decoration: none;
+  text-align: right;
+  color: white;
+  padding: 5px;
+  font-size: 20px;
+  opacity: 0.85;
+  width: min-content;
+}
+
 .form:hover {
   background: #a300cc;
 }
