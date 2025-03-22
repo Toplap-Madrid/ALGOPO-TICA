@@ -20,8 +20,19 @@
     <script src="https://unpkg.com/hydra-synth"></script>
     <!-- Import the webpage's javascript file -->
     <script src="/script.js" defer></script>
+  
+     
   </head>
+  
+  
+  
   <body>
+    
+    <!-- TTS Button -->
+  <button id="ttsButton">🔊 Read Aloud</button>
+    <!-- JavaScript for TTS -->
+    
+    
     <div class="title-container">
       <div class="editor-container">
         <h1>livecoderA</h1>
@@ -189,5 +200,26 @@
     </div>
 
     <canvas id="myCanvas"></canvas>
+    
+    <script>
+    document.getElementById('ttsButton').addEventListener('click', function () {
+      // Collect all visible text from the page
+      const text = document.body.innerText;
+
+      // Create a new speech synthesis utterance
+      const utterance = new SpeechSynthesisUtterance(text);
+
+      // Optional: Customize voice, rate, pitch, etc.
+      utterance.rate = 1;
+      utterance.pitch = 1;
+      utterance.lang = 'en-US';
+
+      // Speak the text
+      speechSynthesis.speak(utterance);
+    });
+  </script>
+    
+    
+    
   </body>
 </html>

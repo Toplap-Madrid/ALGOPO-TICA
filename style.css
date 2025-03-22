@@ -169,3 +169,28 @@ ul {
 ul li {
     margin-bottom: 1em;
 }
+
+/* Style for the top-right button */
+    #ttsButton {
+      position: fixed;
+      top: 5%;
+      left: 4%;
+      padding: 10px 15px;
+      background-color: white;
+      color: black;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 30px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+
+    #ttsButton:hover {
+      background-color: pink;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 40px;
+    }
