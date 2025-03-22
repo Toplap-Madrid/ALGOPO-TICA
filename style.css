@@ -170,18 +170,18 @@ ul li {
     margin-bottom: 1em;
 }
 
-/* Style for the top-right button */
+/* Botón en la esquina superior derecha */
     #ttsButton {
       position: fixed;
-      top: 5%;
-      left: 4%;
+      top: 20px;
+      left: 20px;
       padding: 10px 15px;
       background-color: white;
       color: black;
       border: none;
       border-radius: 8px;
       cursor: pointer;
-      font-size: 30px;
+      font-size: 1.3em;
       box-shadow: 0 2px 6px rgba(0,0,0,0.2);
     }
 
