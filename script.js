@@ -19,6 +19,11 @@ osc(20,.2,.3).posterize(3).modulate(src(o0).rotate(()=>1+a.fft[0]*.2)).add(src(o
     console.log(coms[i])
     coms[i].style.color = "white";
     coms[i].style.textShadow = "3px 3px 5px";
+    coms[i].style.fontSize = "1.5em";
+    coms[i].style.lineHeight = "1.2em";
+    coms[i].style.fontFamily = "monospace,monospace";
+    
+
 }
 
 /*

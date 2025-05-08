@@ -74,6 +74,10 @@ background-color: rgba(0, 0, 0, 0.9);
   width: min-content;
 }
 
+.small {
+  color: white;
+}
+
 .small a{
   outline: none;
   text-decoration: none;
