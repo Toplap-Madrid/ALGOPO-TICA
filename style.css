@@ -16,6 +16,7 @@ font-family: Monospace;
   overflow-y: hidden;
   position: fixed;
   background-size: cover;
+  background: black;
 }
 
 

@@ -5,25 +5,21 @@ hydraCanvas.height = window.innerHeight
 hydraCanvas.getContext("webgl", { preserveDrawingBuffer: true });
 hydra = new Hydra({
   canvas: hydraCanvas,
-  detectAudio: false,
+  detectAudio: true,
   enableStreamCapture: false,
 });
 
-s0.initImage("https://i.ibb.co/SRpW3L2/photo-2022-01-27-15-59-15.jpg")
 
-src(o0)
-.hue(0.01)
-.modulate(voronoi(10,1,0.5).luma(0.1),0.001)
-.scrollY(-0.001)
-.saturate(1.01)
-.rotate(()=>mouse.y*0.0001)
-.layer(
-src(s0).scale(1,0.6).contrast(1.5).luma(0.2,0)).out()
+speed = .1
+osc(20,.2,.3).posterize(3).modulate(src(o0).rotate(()=>1+a.fft[0]*.2)).add(src(o0).luma(),.1)
+  .mult(gradient(2).add(solid(1.20,.210,1.3))).luma(.2).sub(src(o0).scale(1.12),.47).scale(.63).out()
 
-
-src(o0).blend(solid().diff(noise(300).thresh()),0.1).out(o1)
-
-render(o1)
+ const coms = document.getElementsByClassName("cm-comment")
+  for (let i = 0; i < coms.length; i++) {
+    console.log(coms[i])
+    coms[i].style.color = "white";
+    coms[i].style.textShadow = "3px 3px 5px";
+}
 
 /*
 var newtext = document.createElement('div');
