@@ -67,7 +67,7 @@ background-color: rgba(0, 0, 0, 0.9);
   outline: none;
   text-decoration: none;
   text-align: right;
-  color: white;
+  color: #FF99FF;
   padding: 5px;
   font-size: 40px;
   opacity: 0.85;
@@ -195,6 +195,7 @@ ul li {
     }
 
   .algopoetica-text {
+      white-space: pre-wrap;
       font-family: monospace, sans-serif;
       font-size: 18px;
       line-height: 25.2px;
@@ -203,7 +204,14 @@ ul li {
       background: rgba(0,0,0,50%);
   }
 
+ .algopoetica-text .highlight {
+    color: #FF99FF
+  }
 
-    body {
-      margin: 40px;
-    }
+  .algopoetica-text a  {
+    color: #FF99FF
+  }
+
+  body {
+    margin: 40px;
+  }
