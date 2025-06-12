@@ -214,6 +214,9 @@ ul li {
 
 .algopoetica-text .date  {
     font-size: 22px;
+    color:#AAFFAA;
+    background: rgba(150,50,150,50%);
+
   }
 
   body {
