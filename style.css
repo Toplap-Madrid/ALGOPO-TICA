@@ -212,6 +212,10 @@ ul li {
     color: #FF99FF
   }
 
+.algopoetica-text .date  {
+    font-size: 22px;
+  }
+
   body {
     margin: 40px;
   }
