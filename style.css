@@ -209,7 +209,7 @@ ul li {
   }
 
   .algopoetica-text a  {
-    color: #FF99FF
+    color: #FFBBFF
   }
 
 .algopoetica-text .date  {
@@ -218,6 +218,11 @@ ul li {
     background: rgba(150,50,150,50%);
 
   }
+
+.algopoetica-text .date {
+  font-size: 22px;
+  color: #FFBBFF;
+}
 
   body {
     margin: 40px;
