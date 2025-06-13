@@ -76,6 +76,12 @@ background-color: rgba(0, 0, 0, 0.9);
 
 .small {
   color: white;
+  font-size: 12px;
+}
+
+.small .algopoetica-text {
+  color: white;
+  font-size: 16px;
 }
 
 .small a{
@@ -220,7 +226,7 @@ ul li {
   }
 
 .algopoetica-text .title {
-  font-size: 22px;
+  font-size: 28px;
   color: #FFBBFF;
 }
 
