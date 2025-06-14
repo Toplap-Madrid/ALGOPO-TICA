@@ -19,7 +19,7 @@
     Escalofríos y entrañas - Djeannette la loca	|   Feedback Loop: - Lara & Synk
 	& gislene
 	Memorias - Jessica A. Rodriguez				| 	Amazin Poet - visual_punk_ltd
-	Carb ustion – Nervous Data					|	IMPACTOS - Sharon Díez & TACHA~
+  Carb ustion – nervousdata					|	IMPACTOS - Sharon Díez & TACHA~
 	Prosetta - Milo Jacobs, Flynn Duniho        |	Rapaa - nico000000000000
       and Nate Westfall							|
       											|
